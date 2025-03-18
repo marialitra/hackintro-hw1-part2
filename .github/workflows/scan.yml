@@ -8,7 +8,7 @@ on:
         docker_image:
           description: 'The Docker image to scan'
           required: true
-          default: 'hello-world'
+          default: 'flink:scala_2.12-java17'
 
 # env:
 #   REGISTRY: ghcr.io
